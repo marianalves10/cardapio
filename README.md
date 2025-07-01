@@ -29,12 +29,13 @@ O modelo utilizado foi uma Rede Neural LSTM, que é eficiente para capturar depe
 Foi usado nessa etapa o arquivo `teste.py`.
 O conjunto de teste foi separado com 20% dos dados. A métrica utilizada foi acurácia. O modelo atingiu uma acurácia de 5% no conjunto de teste.
 A imagem abaixo mostra os resultados obtidos.
+![teste](imagens/teste.jpeg)
 
 ## API
 Foi usado nessa etapa o arquivo `app.py`.
 A API foi construída usando FastAPI e expõe o endpoint `/predict` que recebe dados no formato JSON e retorna a predição do modelo. A API, para fins de economia financeira, foi criada e executada localmente.
 A imagem abaixo mostra o uso dela com seu resultado.
-
+![API](imagens/api.jpeg)
 
 ## Conclusão
 Embora os resultados do modelo não tenham sido expressivos, principalmente pela limitação no tratamento dos dados e pela alta variabilidade das informações, todas as etapas foram realizadas de forma clara e concisa, permitindo visualizar previsões diretamente na planilha final com base no histórico de refeições original.
