@@ -11,6 +11,7 @@ Este projeto tem como objetivo desenvolver um modelo preditivo para definir um c
 - fastapi
 - pydantic
 - uvicorn
+
 Para instalá-las, basta rodar `pip install -r requirements.txt`.
 
 ## Limpeza e Tratamento dos Dados
